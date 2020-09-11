@@ -5,6 +5,10 @@ html {
   color: #000;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   background: #ccc;
   margin: 0;
@@ -60,9 +64,3 @@ a {
   text-decoration: none;
   padding: .5rem 1rem .6rem;
 }
-
-/*
-a {
-  padding: 2rem;
-}
-*/
