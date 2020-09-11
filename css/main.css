@@ -1,4 +1,44 @@
 html {
   box-sizing: border-box;
   font-family: sans-serif;
+  color: #000;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+img {
+  width: 5rem;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  margin: 0;
+}
+
+hgroup {
+  width: 16rem;
+}
+
+p {
+  width: 24rem
+}
+
+a {
+  background-color: #444;
+  color: #fff;
+  text-decoration: none;
+  padding: .5rem 1rem .6rem;
 }
